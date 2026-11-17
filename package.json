@@ -1,15 +1,22 @@
 {
   "name": "jekyll-inclusion",
+  "version": "1.0.0",
   "description": "Jekyll inclusion theme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/website-templates/jekyll-inclusion.git"
-  },
-  "author": "Maxim Orlov mail@orlovmax.com",
+  "homepage": "http://website-templates.github.io/jekyll-inclusion",
   "bugs": {
     "url": "https://github.com/website-templates/jekyll-inclusion/issues"
   },
-  "homepage": "http://website-templates.github.io/jekyll-inclusion",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/website-templates/jekyll-inclusion.git"
+  },
+  "license": "MIT",
+  "author": "Maxim Orlov mail@orlovmax.com",
+  "type": "commonjs",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "npm install grunt --save-dev"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^1.0.1",
@@ -31,9 +38,13 @@
     "grunt-processhtml": "^0.3.3",
     "grunt-shell": "^1.1.1",
     "grunt-sync": "^0.4.1",
-    "main-bower-files": "^2.9.0",
-    "load-grunt-config": "^0.17.1"
+    "load-grunt-config": "^0.17.1",
+    "main-bower-files": "^2.9.0"
   },
-  "dependencies": {},
-  "license": "MIT"
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "gifsicle@3.0.4": true,
+    "jpegtran-bin@3.2.0": true,
+    "optipng-bin@3.1.4": true
+  }
 }
